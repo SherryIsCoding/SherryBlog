@@ -3,21 +3,24 @@
 # --------------------------------------
 
 nav:
-  logo: # image
+  logo: https://raw.githubusercontent.com/SherryIsCoding/SherryPic/img/img/pngimg.com%20-%20anime_girl_PNG109.png
   display_title: true
-  fixed: false # fixed navigation bar
+  fixed: true # fixed navigation bar
 
 # Menu 目錄
 menu:
-  # Home: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
+   首页: / || fas fa-home
+   时间轴: /archives/ || fas fa-archive
+   标签: /tags/ || fas fa-tags
+   分类||fa fa-folder-open:
+    技术文档: /documents/ || fas fa-file
+    闲聊: /talk/ || fas fa-mug-saucer
+    工具: /tool/ || fas fa-gears
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+   关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -33,35 +36,34 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+   fab fa-github: https://github.com/SherryIsCoding || Github || '#24292e'
+   fas fa-envelope: mailto:1250393793@qq.com || Email || '#4a7dbe'
 
 # Image (圖片設置)
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://github.com/SherryIsCoding/SherryPic/blob/img/img/pngimg.com%20-%20anime_girl_PNG109.png?raw=true
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-  effect: false
+  img: https://github.com/SherryIsCoding/SherryPic/blob/img/img/img-16898643162372dd07f5137b0efc8abf06e811b274d7f7599deb7a5d841d79acfc439a65b50f6.jpg?raw=true
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
-
+index_img: https://raw.githubusercontent.com/SherryIsCoding/SherryPic/img/img/wallhaven-rrxqm1.png
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://raw.githubusercontent.com/SherryIsCoding/SherryPic/img/img/wallhaven-6d1zll.png
 
 # The banner image of archive page
-archive_img:
+archive_img: https://raw.githubusercontent.com/SherryIsCoding/SherryPic/img/img/wallhaven-6d1zll.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://raw.githubusercontent.com/SherryIsCoding/SherryPic/img/img/wallhaven-6d1zll.png
 
 # The banner image of tag page
 # format:
@@ -77,6 +79,7 @@ category_img:
 #  - category name: xxxxx
 category_per_img:
 
+
 cover:
   # display the cover or not (是否顯示文章封面)
   index_enable: true
@@ -86,7 +89,7 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover:
+  default_cover: https://raw.githubusercontent.com/SherryIsCoding/SherryPic/img/img/wallhaven-qz2xmd.jpg
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -102,10 +105,10 @@ error_404:
 
 post_meta:
   page: # Home Page
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -147,7 +150,7 @@ copy:
 # toc (目錄)
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: false
   style_simple: false # for post
@@ -191,7 +194,7 @@ related_post:
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
 # false: disable pagination
-post_pagination: 1
+post_pagination: 2
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
@@ -207,8 +210,8 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2020
-  custom_text:
+    since: 2024
+  custom_text: Thanks for reading
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -219,7 +222,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
@@ -231,7 +234,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/SherryIsCoding
   card_announcement:
     enable: true
     content: This is my Blog
@@ -248,7 +251,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     orderby: random # Order of tags, random/name/length
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
@@ -273,15 +276,15 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 5/25/2024 00:00:00 
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -298,9 +301,9 @@ newest_comments:
 translate:
   enable: false
   # The text of a button
-  default: 繁
+  default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
-  defaultEncoding: 2
+  defaultEncoding: 1
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
@@ -642,7 +645,7 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: https://raw.githubusercontent.com/SherryIsCoding/SherryPic/img/img/wallhaven-qzm28r.png
 
 # Footer Background
 footer_bg: false
@@ -722,7 +725,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: # '\f0c1'
   title-prefix-icon-color: # '#F47466'
@@ -730,10 +733,10 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size:
+  global-font-size: 16px
   code-font-size:
-  font-family:
-  code-font-family:
+  font-family: 
+  code-font-family: 
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -755,6 +758,9 @@ subtitle:
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
+  startDelay: 300 # time before typing starts in milliseconds
+  typeSpeed: 150 # type speed in milliseconds
+  backSpeed: 50 
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
@@ -764,6 +770,7 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - Simplicity is prerequisite for reliability
 
 # Loading Animation (加載動畫)
 preloader:
@@ -911,6 +918,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+      - <link rel="stylesheet" href="/fonts/font.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>

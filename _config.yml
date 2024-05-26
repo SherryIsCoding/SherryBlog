@@ -4,16 +4,17 @@
 
 # Site
 title: Sherry's Blog
-subtitle: ""
-description: ""
+subtitle: sherry的博客
+description: 来一份辣椒炒肉
 keywords:
 author: Sherry
-language: zn
+language: zh-CN
 timezone: Asia/Shanghai
+email: 1250393793@qq.com
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://sherryiscoding.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
