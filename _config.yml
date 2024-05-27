@@ -103,7 +103,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  #repo: https://github.com/SherryIsCoding/SherryIsCoding.github.io.git
-  #branch: main
-  repo: git@120.27.214.171:/var/repo/hexo.git
-  branch: master
+  repo: https://github.com/SherryIsCoding/SherryIsCoding.github.io.git
+  branch: main
+  #repo: git@120.27.214.171:/var/repo/hexo.git
+  #branch: master
