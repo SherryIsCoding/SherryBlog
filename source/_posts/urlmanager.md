@@ -1,11 +1,10 @@
 ---
 title: 浏览器扩展：URL-Manager
 date: 2024-05-28 00:00:30
-categories:
-    - 工具
-tags:
-    - 脚本
-    - 工具
+categories: 
+    - [技术文档]
+    - [工具]
+tags: [脚本,工具]
 ---
 最近在学习技术时每次打开浏览器都要打开固定的几个网站：Chatgpt，Github，CSDN，大佬的博客等等......
 于是乎 想在Chrome设置 启动时打开特定网页或一组网页，设置后发现无效，

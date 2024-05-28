@@ -1,8 +1,7 @@
 ---
 title: Hello World
 date: 2024-05-26 21:00:00
-categories: 
-    - 闲聊
+categories: [闲聊]
 tags: 闲聊
 cover: https://raw.githubusercontent.com/SherryIsCoding/SherryPic/img/img/118598988_p0_master1200.jpg
 ---
